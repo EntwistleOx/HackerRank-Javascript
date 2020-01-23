@@ -1,0 +1,19 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "My hackerrank javascript solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EntwistleOx/HackerRank.git"
+  },
+  "author": "Juan Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EntwistleOx/HackerRank/issues"
+  },
+  "homepage": "https://github.com/EntwistleOx/HackerRank#readme"
+}
