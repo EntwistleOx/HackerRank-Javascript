@@ -2,7 +2,7 @@
 
 My JavaScript solutions to HackerRank problems
 
-WARMUP - Completed
+WARMUP
 
 - Solve Me First
 - Simple Array Sum
@@ -15,6 +15,7 @@ WARMUP - Completed
 - Birthday Cake Candles
 - Time Conversion
 
-IMPLEMENTATION
+IMPLEMENTATION 
 
 - Grading Students
+- Apple and Oranges
