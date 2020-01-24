@@ -6,12 +6,12 @@ function kangaroo(x1, v1, x2, v2) {
     let jumpA = x1
     let jumpB = x2
     let result = 'NO'
-    for (let i = jumpA; i < 20; i++) {
+    for (let i = jumpA; i <= 10000; i++) {
         jumpA = jumpA + v1
         first.push(jumpA)
     }
 
-    for (let j = jumpB; j < 20; j++) {
+    for (let j = jumpB; j <= 10000; j++) {
         jumpB = jumpB + v2
         second.push(jumpB)
     }
