@@ -1,31 +1,12 @@
 // Complete the kangaroo function below.
 function kangaroo(x1, v1, x2, v2) {
-
-    let first = []
-    let second = []
-    let jumpA = x1
-    let jumpB = x2
     let result = 'NO'
-    for (let i = jumpA; i <= 10000; i++) {
-        jumpA = jumpA + v1
-        first.push(jumpA)
-    }
 
-    for (let j = jumpB; j <= 10000; j++) {
-        jumpB = jumpB + v2
-        second.push(jumpB)
+    for(let i = 0; i <= 10000; i++) {
+        if(x1 + v1 * i === x2 + v2 * i)
+        result = 'YES'
     }
-
-    for (let y = 0; y < first.length; y++) {
-        for (let z = 0; z < second.length; z++) {
-            if (first[y] === second[z] && y === z) {
-                result = 'YES'
-            } 
-        }
-    }
-
     return result;
-
 }
 
 // YES
@@ -35,10 +16,24 @@ function kangaroo(x1, v1, x2, v2) {
 // const v2 = 2
 
 // NO
-const x1 = 0
-const v1 = 2
-const x2 = 5
+// const x1 = 0
+// const v1 = 2
+// const x2 = 5
+// const v2 = 3
+
+// YES 2081 8403 9107 8400
+// const x1 = 2081
+// const v1 = 8403
+// const x2 = 9107
+// const v2 = 8400
+
+// NO 21 6 47 3
+const x1 = 21
+const v1 = 6
+const x2 = 47
 const v2 = 3
+
 let result = kangaroo(x1, v1, x2, v2);
 
 console.log(result + "\n");
+
