@@ -30,9 +30,6 @@ function gradingStudents(grades) {
     return result
 }
 
-
 let grades = [73, 67, 38, 33];
-
 const result = gradingStudents(grades);
-
 console.log(result.join('\n') + '\n');
