@@ -24,15 +24,22 @@
 
 function getTotalX(a, b) {
 
+    // A -> MCM
+    // Calcular minimo comun multiplo de 2, 4
+
+    // B -> MCD
+    // Calcular maximo comun divisor de 16, 32, 96
+
     let total = 0
     for (let i = 0; i <= 100; i++) {
         if (i % a[i] === 0) {
-            console.log(a[i], i)
+            // console.log(a[i], 'a')
             total++
         }
 
+        // if (i % b[i] === 0) {
         if (b[i] % i === 0) {
-            console.log(b[i], i)
+            console.log(b[i], 'b')
             total++
         }
     }
@@ -44,6 +51,7 @@ function getTotalX(a, b) {
 // The integer being considered is a factor of all elements of the second array
 // [2, 4]
 // [16, 32, 96]
+// 4 - 8 - 16
 // result 3
 const arr = [2, 4];
 const brr = [16, 32, 96];
