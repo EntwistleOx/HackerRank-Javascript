@@ -4,7 +4,7 @@
   "description": "My hackerrank javascript solutions",
   "main": "index.js",
   "scripts": {
-    "start": "node implementation/between-two-sets.js"
+    "start": "node implementation/breakingTheRecords.js"
   },
   "repository": {
     "type": "git",
