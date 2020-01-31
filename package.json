@@ -4,7 +4,7 @@
   "description": "My hackerrank javascript solutions",
   "main": "index.js",
   "scripts": {
-    "start": "node implementation/breakingTheRecords.js"
+    "start": "node implementation/theBirthdayBar.js"
   },
   "repository": {
     "type": "git",
