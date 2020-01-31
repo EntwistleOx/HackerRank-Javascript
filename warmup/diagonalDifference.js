@@ -8,6 +8,7 @@
 function diagonalDifference(arr) {
     let first = 0;
     let second = 0;
+
     for (let i = 0; i < arr.length; i++) {
         for (let j = 0; j < arr.length; j++) {
             if (arr[i][j] >= -100 && arr[i][j] <= 100) {
@@ -20,6 +21,7 @@ function diagonalDifference(arr) {
             }
         }
     }
+
     const total = first > second ? first - second : second - first
     return total;
 }
@@ -31,5 +33,4 @@ let arr = [
 ]
 
 const result = diagonalDifference(arr);
-
 console.log(result + '\n');

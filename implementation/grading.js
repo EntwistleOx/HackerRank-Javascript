@@ -6,17 +6,17 @@
  */
 
 function gradingStudents(grades) {
-
     let result = []
     for (let i = 0; i < grades.length; i++) {
-
         let next = 0
+
         for (let j = grades[i]; j <= 100; j++) {
             if (j % 5 === 0) {
                 next = j
                 break
             }
         }
+
         if ((grades[i]) < 38) {
             result.push(grades[i])
         } else {

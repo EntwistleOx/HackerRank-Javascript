@@ -1,6 +1,5 @@
 // Complete the countApplesAndOranges function below.
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
-
     let appleDistance = apples.map(x => a + x)
     let orangeDistante = oranges.map(y => b + y)
 

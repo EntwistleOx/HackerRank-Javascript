@@ -8,13 +8,11 @@
  */
 
 function getTotalX(a, b) {
-
     let n = a.length
     let m = b.length
     let count = 0
 
     for (let i = 1; i <= 100; i++) {
-
         let flag = true
 
         for (let j = 0; j < n; j++) {
