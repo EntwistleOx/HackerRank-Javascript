@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "hackerrank",
   "version": "1.0.0",
@@ -17,3 +18,24 @@
   },
   "homepage": "https://github.com/EntwistleOx/HackerRank#readme"
 }
+=======
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "My hackerrank javascript solutions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node implementation/theBirthdayBar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EntwistleOx/HackerRank.git"
+  },
+  "author": "Juan Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EntwistleOx/HackerRank/issues"
+  },
+  "homepage": "https://github.com/EntwistleOx/HackerRank#readme"
+}
+>>>>>>> c70468d815445fe05197233b6ec72bb05856bc00

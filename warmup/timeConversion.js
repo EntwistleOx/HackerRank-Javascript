@@ -25,14 +25,9 @@ function timeConversion(s) {
     hours = fixHour
     minutes = parts[1]
     seconds = parts[2].slice(0, 2)
-
     return hours + ':' + minutes + ':' + seconds
-
 }
 
-
 const s = '07:05:45PM';
-
 let result = timeConversion(s);
-
 console.log(result + "\n");

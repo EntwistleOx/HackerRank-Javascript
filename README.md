@@ -19,6 +19,7 @@ IMPLEMENTATION
 
 - Grading Students
 - Apple and Oranges
-- Kangaroo
+- Number Line Jumps
 - Between Two Sets
+- Breaking the Records
 - Sub-array Division
